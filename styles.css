@@ -1,4 +1,79 @@
-body {
+/* Universal Styles */
+
+p, li {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+h1, h2 {
+    font-family: "Arvo", monospace;
+
+}
+
+/* Header */
+
+header {
     background-color: #004643;
+}
+
+#my-name {
+    color: #fffffe;
+}
+
+#nav-bar {
+    color: #fffffe;
+}
+
+/* Description */
+
+#description {
+    background-color: #004643;
+}
+
+#description-big {
+    color: #fffffe;
+}
+
+#description-small {
+    color: #abd1c6;
+}
+
+/* About Me */
+
+#about-me {
+    background-color: #abd1c6;
+}
+
+#about-me-title {
+    color: #001e1d;
+}
+
+#about-me-p {
+    color: #004643;
+}
+
+
+/* Skills */
+
+#skills {
+    background-color: #004643;
+}
+
+#skills-title {
+    color: #fffffe;
+}
+
+#skills-p {
+    color: #abd1c6;
+}
+
+/* Projects */
+
+#projects {
+    background-color: #abd1c6;
+}
+
+#projects-title {
+    color: #001e1d;    
 }
 

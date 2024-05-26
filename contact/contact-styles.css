@@ -1,3 +1,30 @@
+p, li {
+    font-family: "Quicksand", sans-serif;
+}
+
+
+h1, h2 {
+    font-family: "Arvo", monospace;
+
+}
+
+
 body {
     background-color: #004643;
+}
+
+#my-name {
+    color: #fffffe;
+}
+
+#nav-bar {
+    color: #fffffe;
+}
+
+#contact-title {
+    color: #fffffe;
+}
+
+#contact-p {
+    color: #abd1c6;
 }

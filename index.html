@@ -6,29 +6,42 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <meta charset="UTF-8">
         <script src="https://kit.fontawesome.com/d182472d11.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Arvo:ital,wght@0,400;0,700;1,400;1,700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
     </head>
     <body>
         <header>
-            <h1>Chiara Michelle</h1>
-            <nav>
+            <h1 id="my-name">Chiara Michelle</h1>
+            <nav id="nav-bar">
                 <ul>
                     <li><a href="#about-me">About Me</a></li>
-                    <li><a href="#projects">Projects</a></li>
                     <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
                     <li><a href="./contact/contact.html">Contact</a></li>
                 </ul>
             </nav>
         </header>
         <main>
             <section id="description">
-                <h1>Colorful, engaging solutions.</h1>
-                <p>Welcome to my portfolio! I create fun, vibrant websites and software that combine creativity and functionality. Explore my work to see how I bring ideas to life with color and innovation. Let's build something amazing together!</p>
+                <p id="description-big">Colorful, engaging solutions.</p>
+                <p id="description-small">Welcome to my portfolio! I create fun, vibrant websites and software that combine creativity and functionality. Explore my work to see how I bring ideas to life with color and innovation. Let's build something amazing together!</p>
             </section>
             <section id="about-me">
-                <p>Welcome to my portfolio! I'm Chiara Michelle, based in the beautiful region of Galicia, northern Spain. I'm deeply immersed in the fascinating world of web and software development, constantly learning and expanding my skills. My passion is creating vibrant, fun, and engaging digital experiences that stand out. Every project I undertake is a chance to merge creativity with functionality, resulting in colorful designs and intuitive user interfaces. Explore my work to see my journey and progress. Let's collaborate and bring your ideas to life in the most exciting and innovative ways!</p>
+                <h2 id="about-me-title">About Me</h2>
+                <p about-me-p>Welcome to my portfolio! I'm Chiara Michelle, based in the beautiful region of Galicia, northern Spain. I'm deeply immersed in the fascinating world of web and software development, constantly learning and expanding my skills. My passion is creating vibrant, fun, and engaging digital experiences that stand out. Every project I undertake is a chance to merge creativity with functionality, resulting in colorful designs and intuitive user interfaces. Explore my work to see my journey and progress. Let's collaborate and bring your ideas to life in the most exciting and innovative ways!</p>
+            </section>
+            <section id="skills">
+                <h2 id="skills-title">Skills</h2>
+                <p id="skills-p">(will be updated soon)</p>
+                <i class="fa-brands fa-html5" style="color: #FFD43B;"></i>
+                <i class="fa-brands fa-css3-alt" style="color: #FFD43B;"></i>
+                <i class="fa-brands fa-js" style="color: #FFD43B;"></i>
+                <i class="fa fa-git-square" aria-hidden="true" style="color: #FFD43B;"></i>
+                <i class="fa-brands fa-github" style="color: #FFD43B;"></i>
             </section>
             <section id="projects">
-                <h2>Latest projects</h2>
+                <h2 id="projects-title">Latest projects</h2>
                 <div id="software-box">
                     <a class="software" id="bakery-link" href="https://chiaramichelle.github.io/Bakery-Feedback-Form/" target="_blank">
                         <img class="img" src="./resources/bakery.png" alt="bakery project photo">
@@ -43,15 +56,6 @@
                         <p class="software-description link">Random Message Generator<span class="project-link-symbol"><code>   /&gt;</code></span></p>
                     </a>
                 </div>
-            </section>
-            <section id="skills">
-                <h2>Skills (will update soon)</h2>
-                <i class="fa-brands fa-html5"></i>
-                <i class="fa-brands fa-css3-alt"></i>
-                <i class="fa-brands fa-js"></i>
-                <i class="fa fa-git-square" aria-hidden="true"></i>
-                <i class="fa-brands fa-github"></i>
-
             </section>
         </main>
     </body>

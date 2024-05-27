@@ -308,6 +308,7 @@ footer a:visited{
     align-items: center;
     justify-content: center;
     border-top: 2px solid black;
+margin-bottom: 30px;
 }
 
 #about-me-text {
@@ -320,6 +321,8 @@ footer a:visited{
     color: #004643;
     font-size: 18px;
     line-height: 1.2em;
+padding-bottom: 30px;
+
     
 }
 
@@ -327,7 +330,7 @@ footer a:visited{
     max-height: 300px;
     width: auto;
     overflow-x: hidden;
-    margin: 30px auto;
+    margin: 0 auto;
 }
 
 /* Skills */

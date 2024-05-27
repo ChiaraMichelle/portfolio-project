@@ -167,8 +167,7 @@ li:hover {
 #projects {
     background-color: #abd1c6;
     padding-top: 20px;
-    height: 100vh;
-    width: 100vw;
+   
     display: flex;
     align-items: center;
     justify-content: space-evenly;
@@ -211,12 +210,13 @@ li:hover {
 
 
 footer {
-    height: 50vh;
     background-color: #004643;
     display: flex;
     align-items: center;
     justify-content: space-around;
     border-top: 1px solid black;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
 }
 

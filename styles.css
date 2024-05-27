@@ -295,7 +295,8 @@ footer a:visited{
 #about-me {
     background-color: #abd1c6;
     padding-top: 20px;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -330,7 +331,8 @@ footer a:visited{
 #skills {
     background-color: #004643;
     border-top: 2px solid black;
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
 }
 
 
@@ -354,8 +356,8 @@ footer a:visited{
 #projects {
     background-color: #abd1c6;
     padding-top: 20px;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
+    width: 100vw;
     border-top: 2px solid black;
 }
 
@@ -373,8 +375,8 @@ width: auto;
 
 
 .img {
-    height: 200px;
-    width: auto;
+    height: auto;
+    width: 100vw;
     border-radius: 15px;
     border: 1px solid black;
    margin-bottom: 20px;
@@ -400,7 +402,8 @@ width: auto;
 
 
 footer {
-    height: 100%;
+    height: 100vh;
+    width: 100vw;
     background-color: #004643;
     display: flex;
     flex-direction: column-reverse;

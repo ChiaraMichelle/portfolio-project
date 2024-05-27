@@ -101,3 +101,38 @@ main {
 #contact-icons a {
     margin-left: 30px;
 }
+
+
+/* Media query */
+
+@media only screen and (max-width: 1024px) {
+    header {
+        display: none;
+    }
+
+    main {
+        height: 100%;
+    }
+    
+    #contact-title {
+        color: #fffffe;
+    }
+    
+    #contact-p {
+        color: #abd1c6;
+        font-size: 20px;
+        position: relative;
+        top: 150px;
+
+        
+    }
+    
+
+    #contact-icons {
+        font-size: 10em;
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        top: 130px;
+
+    }

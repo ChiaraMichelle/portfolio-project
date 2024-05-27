@@ -330,6 +330,8 @@ footer a:visited{
 #skills {
     background-color: #004643;
     border-top: 2px solid black;
+    height: auto;
+    width: 100%;
 
 }
 

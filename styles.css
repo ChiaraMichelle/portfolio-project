@@ -329,6 +329,7 @@ footer a:visited{
     width: auto;
     margin-top: 30px;
     margin-bottom: 40px;
+    overflow-x: hidden;
 }
 
 /* Skills */

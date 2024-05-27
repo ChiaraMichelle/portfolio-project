@@ -253,6 +253,12 @@ footer a:visited{
         display: none;
     }
 
+
+    section {
+        display: flex;
+        flex-direction: column;
+    }
+
     /* Description */
 
     #description {

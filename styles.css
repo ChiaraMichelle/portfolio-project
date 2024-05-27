@@ -340,7 +340,7 @@ footer a:visited{
     flex-direction: column;
     align-items: center;
   padding-top: 30px;
-   padding-bottom: 90px;
+   padding-bottom: 30px;
     height: 100%;
 }
 
@@ -376,7 +376,7 @@ width: auto;
 .img {
     height: auto;
     max-width: 100vw;
-    min-width: 200px;
+    min-width: 300px;
     border-radius: 15px;
     border: 1px solid black;
    margin-bottom: 20px;
@@ -394,7 +394,6 @@ width: auto;
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-bottom: 20px;
 }
 
 
@@ -402,7 +401,7 @@ width: auto;
 
 
 footer {
-    height: 100vh;
+    height: 70vh;
     width: 100vw;
     background-color: #004643;
     display: flex;

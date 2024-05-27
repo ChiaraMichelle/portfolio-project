@@ -1,55 +1,129 @@
 /* Universal Styles */
 
-p, li {
-    font-family: "Quicksand", sans-serif;
+* {
+    margin: 0; 
+}
+
+p, li, h2 {
+    font-family: "Rubik", sans-serif;
+    letter-spacing: .5px;
 }
 
 
-h1, h2 {
+h1 {
     font-family: "Arvo", monospace;
-
+    letter-spacing: .5px;
 }
+
+body {
+    width: 100vw;
+}
+
 
 /* Header */
 
+
 header {
-    background-color: #004643;
+    background-color: #e16162;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    height: 100px;
+}
+
+header * {
+    display: inline;
+}
+
+
+header li {
+    margin: 20px;
+    padding-right: 20px;
+}
+
+header li a {
+    color: #fffffe;
+    text-decoration: none;
 }
 
 #my-name {
     color: #fffffe;
+    margin-left: 40px;
 }
 
-#nav-bar {
-    color: #fffffe;
-}
+
+
+
 
 /* Description */
 
 #description {
     background-color: #004643;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 100vh - 100px;
+    position: relative;
+}
+
+
+#my-pic {
+    width: 50%;
+    height: auto;
+}
+
+#text-area {
+ width: 30%;  
 }
 
 #description-big {
     color: #fffffe;
+    font-size: 56px;
+    font-weight: 500;
+    
 }
 
 #description-small {
     color: #abd1c6;
+    font-size: 20px;
 }
 
 /* About Me */
 
 #about-me {
     background-color: #abd1c6;
+    padding-top: 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#about-me-text {
+    width: 30%;
+    margin-left: 30px;
+    justify-self: left;
 }
 
 #about-me-title {
     color: #001e1d;
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
 }
 
 #about-me-p {
     color: #004643;
+    font-size: 20px;
+    
+}
+
+#me {
+    width: 40vw;
+    height: auto;
+    margin-right: 30px;
 }
 
 
@@ -57,20 +131,40 @@ header {
 
 #skills {
     background-color: #004643;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
 }
 
 #skills-title {
     color: #fffffe;
+    font-size: 56px;
+    font-weight: 500;
+    text-align: center;
 }
 
 #skills-p {
     color: #abd1c6;
+    font-size: 20px;
+}
+
+#icon-area {
+    display: flex;
+    flex-direction: column;
+}
+
+.icon {
+    margin-top: 20px;
+    font-size: 5em;
+    
 }
 
 /* Projects */
 
 #projects {
     background-color: #abd1c6;
+    padding-top: 20px;
 }
 
 #projects-title {

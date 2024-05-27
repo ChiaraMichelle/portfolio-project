@@ -2,6 +2,8 @@
 
 * {
     margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
 }
 
 p, li, h2 {
@@ -15,9 +17,11 @@ h1 {
     letter-spacing: .5px;
 }
 
+
 body {
-    width: 100vw;
+    overflow-x: hidden;
 }
+
 
 
 /* Header */
@@ -28,7 +32,6 @@ header {
     align-items: center;
     display: flex;
     justify-content: space-between;
-    width: 100vw;
     align-items: center;
     height: 100px;
 }

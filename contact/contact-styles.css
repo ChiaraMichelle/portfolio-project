@@ -112,6 +112,8 @@ main {
 
     main {
         height: 100%;
+display: flex;
+flex-direction: column;
     }
     
     #contact-title {

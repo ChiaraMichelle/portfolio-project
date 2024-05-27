@@ -267,12 +267,12 @@ footer a:visited{
     }
 
     #my-pic {
-        width: 60%;
+        max-width: 60%;
         height: auto;
     }
     
     #text-area {
-     width: 65%;  
+     max-width: 60%;  
      text-align: center;
     }
     
@@ -318,11 +318,8 @@ footer a:visited{
 }
 
 #me {
-    min-width: 100px;
-    max-width: 80%;
-    height: auto;
-    border: 10px solid #e16162;
-    border-radius: 15px;
+    min-width: 200px;
+    max-height: 30%;
     margin-top: 30px;
     margin-bottom: 30px;
 }
@@ -340,14 +337,12 @@ footer a:visited{
     flex-direction: column;
     align-items: center;
   padding-top: 30px;
-   padding-bottom: 30px;
+   padding-bottom: 10px;
     height: 100%;
 }
 
 .icon {
-    font-size: 6em;
-    
-    
+    font-size: 6em;   
 }
 
 /* Projects */
@@ -355,7 +350,6 @@ footer a:visited{
 #projects {
     background-color: #abd1c6;
     padding-top: 20px;
-    height: 100vh;
     width: 100vw;
     border-top: 2px solid black;
 }
@@ -401,7 +395,7 @@ width: auto;
 
 
 footer {
-    height: 70vh;
+    height: 60vh;
     width: 100vw;
     background-color: #004643;
     display: flex;

@@ -1,24 +1,79 @@
-p, li {
-    font-family: "Quicksand", sans-serif;
+/* Universal Styles */ 
+
+
+* {
+    margin: 0; 
+}
+
+p, li, h2 {
+    font-family: "Rubik", sans-serif;
+    letter-spacing: .5px;
 }
 
 
-h1, h2 {
+h1 {
     font-family: "Arvo", monospace;
-
+    letter-spacing: .5px;
 }
-
 
 body {
+    width: 100vw;
     background-color: #004643;
 }
 
-#my-name {
-    color: #fffffe;
+/* Header */
+
+
+header {
+    background-color: #e16162;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    width: 100vw;
+    align-items: center;
+    height: 100px;
+    border-bottom: 2px solid black;
 }
 
-#nav-bar {
+header * {
+    display: inline;
+}
+
+
+header li {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+header li a {
+    color: white;
+    text-decoration: none;
+}
+
+li:hover {
+    background-color:  #ea9091;
+    text-decoration: none;
+}
+
+
+#my-name {
     color: #fffffe;
+    margin-left: 40px;
+}
+
+
+
+/* Contact */
+
+
+main {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    justify-content: center;
+    align-items: center;
 }
 
 #contact-title {
@@ -27,4 +82,22 @@ body {
 
 #contact-p {
     color: #abd1c6;
+    font-size: 20px;
+    position: fixed;
+    top: 280px;
+}
+
+
+#contact-icons {
+    margin-top: 90px;
+    font-size: 5em;
+
+}
+
+#contact-icons a:hover {
+    font-size: 1.2em;
+}
+
+#contact-icons a {
+    margin-left: 30px;
 }

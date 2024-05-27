@@ -33,20 +33,11 @@
             </section>
             <section id="about-me">
                 <div id="about-me-text">
-                    <h2 id="about-me-title">About Me</h2>
-                    <br>
                     <p id="about-me-p">I'm Chiara Michelle, based in the beautiful region of Galicia, northern Spain. I'm deeply immersed in the fascinating world of web and software development, constantly learning and expanding my skills. My passion is creating vibrant, fun, and engaging digital experiences that stand out. Every project I undertake is a chance to merge creativity with functionality, resulting in colorful designs and intuitive user interfaces. Explore my work to see my journey and progress. Let's collaborate and bring your ideas to life in the most exciting and innovative ways!</p>
                 </div>
                 <img id="me" src="./resources/Screenshot_20240527_121741_Instagram.jpg" alt="me standing in a garden park">
             </section>
             <section id="skills">
-                <div id="skills-text-area">
-                    <h2 id="skills-title">Skills</h2>
-                    <br>
-                    <p id="skills-p">
-                       Join me on this exciting journey as this list gets longer ;)
-                    </p>
-                </div>
                 <div id="icon-area">
                     <i class="icon fa-brands fa-html5" style="color: #FFD43B;"></i>
                     <i class="icon fa-brands fa-css3-alt" style="color: #FFD43B;"></i>
@@ -56,22 +47,27 @@
                 </div>
             </section>
             <section id="projects">
-                <h2 id="projects-title">Latest projects</h2>
                 <div id="software-box">
                     <a class="software" id="bakery-link" href="https://chiaramichelle.github.io/Bakery-Feedback-Form/" target="_blank">
                         <img class="img" src="./resources/bakery.png" alt="bakery project photo">
-                        <p class="software-description link">Bakery Feedback Form<span class="project-link-symbol"><code>   /&gt;</code></span></p>
                     </a>
                     <a class="software" id="calculadora-link" href="https://chiaramichelle.github.io/calculadora-rer/" target="_blank">
                         <img class="img" src="./resources/rer.png" alt="calculadora rer project photo">
-                        <p class="software-description link">RER Calculator<span class="project-link-symbol"><code>   /&gt;</code></span></p>
                     </a>
                     <a class="software" id="random-things" href="https://chiaramichelle.github.io/message-generator/" target="_blank">
                         <img class="img" src="./resources/message-generator.png" alt="calculadora rer project photo">
-                        <p class="software-description link">Random Message Generator<span class="project-link-symbol"><code>   /&gt;</code></span></p>
                     </a>
+                    <div id="button-area">
+                        <button class="w3-button w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+                        <button class="w3-button w3-display-right" onclick="plusDivs(+1)">&#10095;</button>
+                    </div>
                 </div>
             </section>
+            <footer>
+                <img id="footer-img" src="./resources/two-people-collaborating-online.png" alt="Illustration of two people collaborating">
+                <a href="./contact/contact.html"><p id="footer-text">Let's work together >></p></a>
+            </footer>
         </main>
+        <script src="./script.js"></script>
     </body>
 </html>

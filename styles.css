@@ -318,7 +318,8 @@ footer a:visited{
 }
 
 #me {
-    width: 80%;
+    min-width: 100px;
+    max-width: 80%;
     height: auto;
     border: 10px solid #e16162;
     border-radius: 15px;
@@ -331,8 +332,6 @@ footer a:visited{
 #skills {
     background-color: #004643;
     border-top: 2px solid black;
-    height: 100vh;
-    width: 100vw;
 }
 
 
@@ -376,7 +375,8 @@ width: auto;
 
 .img {
     height: auto;
-    width: 100vw;
+    max-width: 100vw;
+    min-width: 200px;
     border-radius: 15px;
     border: 1px solid black;
    margin-bottom: 20px;

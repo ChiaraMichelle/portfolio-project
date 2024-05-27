@@ -261,7 +261,8 @@ footer a:visited{
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        height: 100%;
+        height: 100vh;
+        width: 100vw;
         padding-top: 30px;
     }
 
